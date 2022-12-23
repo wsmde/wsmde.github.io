@@ -2,7 +2,18 @@
 <p><a href="https://wsmde.github.io">https://wsmde.github.io</a></p>
 <p>wsmde.repl.co</p>
 <h1>Layout</h1>
-<p><a href="/downloads/111.09.13綜一館網點需求彙整版(已統計各單位交換器設備費)_v2.pdf">111.09.13綜一館網點需求彙整版(已統計各單位交換器設備費)_v2.pdf</a></p><h1>Certificate</h1>
+<p><a href="/downloads/111.09.13綜一館網點需求彙整版(已統計各單位交換器設備費)_v2.pdf">111.09.13綜一館網點需求彙整版(已統計各單位交換器設備費)_v2.pdf</a></p>
+<h2>cadlab</h2>
+<p>綜合第一工程館八樓電腦輔助設計室網路:</p>
+<p>網路來源 (inputs):</p>
+<p style="padding-left: 30px;">系主幹網路線: 編號 1810 網路線</p>
+<p style="padding-left: 30px;">光纖: 由綜一館三樓連接至電腦輔助設計室機櫃</p>
+<p>網路連外 (outputs): 811-810A 與 811-810B</p>
+<p>Router 為 svm8641:</p>
+<p style="padding-left: 30px;">功能: 承接由綜一館三樓進入的主幹光纖, 經由 <a href="https://www.commscope.com/product-type/enterprise-networking/ethernet-switches/icx7150/">ICX-7150</a> switch (48 ports + 24 ports) 與電腦連接, 其中的電腦由 SVM8641 取得 IPv4 網路位址與 DNS 設定, 並由編號 1810 網路線與系主幹相連, 各電腦可經由編號 1810 直接與校 DHCP6 連接取的 IPv6 網路位址.</p>
+<p style="padding-left: 30px;">24 port 之 <a href="https://www.commscope.com/product-type/enterprise-networking/ethernet-switches/icx7150/">ICX-7150</a> 且提供藍線 811-810A 連接至協同設計室, 將 IPv4 與 IPv6 網路提供予協同設計室主機架上之 switch 作為網路來源. 其餘灰色線編號 811-810B 則也連接至協同設計室, 作為預備線用.</p>
+<p style="padding-left: 30px;"><a href="https://www.qno.com.tw/web/products_info_svm8641.asp">https://www.qno.com.tw/web/products_info_svm8641.asp</a></p>
+<p style="padding-left: 30px;"><a href="https://mde.tw/demo/downloads/SVM8641_UserManual_TC.pdf">SVM8641_UserManual_TC.pdf</a></p><h1>Certificate</h1>
 <p><a href="https://mde.tw/demo/downloads/windows_kms_ipv6.7z">windows_kms_ipv6.7z</a> (在純 IPv6 環境下執行 Windows 10 認證)</p><h1>Software</h1>
 <h2>Windows</h2>
 <h2>Office</h2>
